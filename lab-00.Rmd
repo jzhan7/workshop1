@@ -17,16 +17,18 @@ We set up the data frame. Edit the data below to include information about your 
 
 ```{r setup-tibble}
 team_data <- tibble(
-  name = c("Peter Rabbit", "member 1", "member 2", 
-           "member 3", "member 4"),
-  github_username = c("mcgregors-garden", "username 1", "username 2", 
-                      "username 3", "username 4"), 
-  colour = c("powderblue", "colour 1", "colour 2", 
-             "colour 3", "colour 4"),
-  hobby = c("Hopping", "hobby 1", "hobby 2", 
-            "hobby 3", "hobby 4"),
-  favourite_number = c(2, NA, NA, NA, NA)
+  name = c("Lihan Gong", "Alma Brookes", "Neha Pillai", 
+           "Catherine B", "Hoddy"),
+  github_username = c("lgong25", "alma-bh", "nehapillai07", 
+                      "catherineb012", "hodddy"), 
+  colour = c("red", "blue", "pink", 
+             "blue", "white"),
+  hobby = c("reels", "reading", "badminton", 
+            "golf", "guitar"),
+  favourite_number = c(6, 6, 8, 3, 4)
   )
+
+
 
 team_data
 ```
@@ -47,7 +49,14 @@ p1
 ```
 
 
-*Remove this text (including the stars), and add your answer for Exercise 18 here.*
+## # A tibble: 5 × 5
+##   name         github_username colour hobby     favourite_number
+##   <chr>        <chr>           <chr>  <chr>                <dbl>
+## 1 Lihan Gong   lgong25         red    reels                    6
+## 2 Alma Brookes alma-bh         blue   reading                  6
+## 3 Neha Pillai  nehapillai07    pink   badminton                8
+## 4 Catherine B  catherineb012   blue   golf                     3
+## 5 Hoddy        hodddy          white  guitar                   4
 
 ### Exercises 19
 
