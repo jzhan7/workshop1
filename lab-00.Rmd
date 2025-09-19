@@ -63,12 +63,12 @@ p1
 Change the text of the plot title and axis labels.
 
 ```{r labelled-bar-plot}
-p1 + labs(x = "Insert text here", 
-          y = "Insert text here",
-          title = "Insert text here")
+p1 + labs(x = "Github Username", 
+          y = "Favourite Number",
+          title = "Lab 00")
 ```
 
-*Remove this text (including the stars), and add your answer for Exercise 19 here.*
+The labs() function is for inserting labels onto plots.
 
 ### Exercise 20
 
@@ -78,4 +78,4 @@ p2 <- ggplot(team_data, aes(x = hobby)) +
 p2
 ```
 
-*Remove this text (including the stars) and add your answer for Exercise 20 here.*
+The data visualisation produced by this method would be worse at conveying information because the count increments by 0.25 which is unrealistic since hobbies can only be of integer values. This can be resolved by incrementing by 1 instead.
